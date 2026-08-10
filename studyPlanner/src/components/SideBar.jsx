@@ -1,5 +1,6 @@
-import {BookOpenTextIcon} from "@phosphor-icons/react"
-import "./SideBar.css"
+import {BookOpenTextIcon, HouseIcon} from "@phosphor-icons/react";
+import "./SideBar.css";
+import {Link} from 'react-router-dom';
 export default function SideBar(){
     return (
         <>
@@ -12,7 +13,8 @@ export default function SideBar(){
                 </div>
             </div>
             <div>
-
+                <Link to={"/home"}><HouseIcon size={32} color="#094cb2" /> Home</Link>
+                <Link to={}> Studies</Link>
             </div>
             <div>
 

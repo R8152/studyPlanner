@@ -1,13 +1,19 @@
 import { useState } from 'react'
 import './App.css'
 import SideBar from './components/SideBar'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import Home from './pages/Home'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <SideBar/>
+      <BrowserRouter>
+      <Routes>
+        <Route path='/home' element={Home}></Route>
+      </Routes>
+      </BrowserRouter>
     </>
   )
 }
