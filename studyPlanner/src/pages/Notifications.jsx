@@ -1,8 +1,9 @@
 import './Notifications.css'
-export default function Notifications(){
+const Notifications = () => {
     return(
         <>
         
         </>
     )
 }
+export default Notifications

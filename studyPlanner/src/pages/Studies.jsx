@@ -1,8 +1,9 @@
 import './Studies.css'
-export default function Studies(){
+const Studies = () => {
     return(
         <>
         
         </>
     )
 }
+export default Studies
