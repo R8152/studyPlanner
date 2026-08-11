@@ -15,9 +15,14 @@ export default function SideBar(){
             <div>
                 <Link to={"/home"}><HouseIcon size={32} color="#094cb2" /> Home</Link>
                 <Link to={}> Studies</Link>
+                <Link to={}> Notifications</Link>
             </div>
             <div>
-
+                <img src="" alt="" />
+                <div>
+                    <label htmlFor="">Raul Teles</label>
+                    <span>Pro Student</span>
+                </div>
             </div>
         </aside>
         </>
