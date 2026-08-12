@@ -3,7 +3,6 @@ import "./SideBar.css";
 import {Link} from 'react-router-dom';
 export default function SideBar(){
     return (
-        <>
         <aside>
             <div>
                 <BookOpenTextIcon size={32} color="#094cb2" />
@@ -25,6 +24,5 @@ export default function SideBar(){
                 </div>
             </div>
         </aside>
-        </>
     )
 }

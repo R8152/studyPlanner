@@ -1,17 +1,15 @@
-import { useState } from 'react'
-import './App.css'
-import SideBar from './components/SideBar'
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import Home from './pages/Home'
-import Dashboard from './pages/Dashboard'
-import Studies from './pages/Studies'
-import Notifications from './pages/Notifications'
+import './App.css';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import SideBar from './components/SideBar';
+import Home from './pages/Home';
+import Dashboard from './pages/Dashboard';
+import Studies from './pages/Studies';
+import Notifications from './pages/Notifications';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
+    <SideBar/>
       <BrowserRouter>
         <Routes>
           <Route element={<Dashboard/>}>
