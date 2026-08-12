@@ -14,7 +14,7 @@ export default function SideBar(){
             <div>
                 <Link to={"/home"}><HouseIcon size={32} color="#094cb2" /> Home</Link>
                 <Link to={"/studies"}><BookBookmarkIcon size={32} color="#094cb2" /> Studies</Link>
-                <Link to={"/notificacoes"}><BellIcon size={32} color="#094cb2" /> Notifications</Link>
+                <Link to={"/notifications"}><BellIcon size={32} color="#094cb2" /> Notifications</Link>
             </div>
             <div>
                 <img src="" alt="" />
