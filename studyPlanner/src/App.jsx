@@ -1,15 +1,14 @@
 import './App.css';
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
-import SideBar from './components/SideBar';
-import Home from './pages/Home';
-import Dashboard from './pages/Dashboard';
-import Studies from './pages/Studies';
-import Notifications from './pages/Notifications';
+// import SideBar from './components/SideBar';
+// import Home from './pages/Home';
+// import Dashboard from './pages/Dashboard';
+// import Studies from './pages/Studies';
+// import Notifications from './pages/Notifications';
 
-function App() {
+export default function App() {
   return (
     <>
-    <SideBar/>
+    {/* <SideBar/>
       <BrowserRouter>
         <Routes>
           <Route element={<Dashboard/>}>
@@ -18,9 +17,7 @@ function App() {
             <Route path='/notifications' element={<Notifications/>}/>
           </Route>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </>
   )
 }
-
-export default App
