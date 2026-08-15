@@ -1,19 +1,20 @@
-
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./SideBar.css";
 export default function SideBar(){
     return (
         <aside>
             <div>
-                {/* <BookOpenTextIcon size={32} color="#094cb2" /> */}
+                <FontAwesomeIcon icon="fa-solid fa-book-open" />
                 <div>
                     <label>Silk Study</label>
                     <span>Manager</span>
                 </div>
             </div>
             <div>
-                {/* <Link to={"/home"}><HouseIcon size={32} color="#094cb2" /> Home</Link>
-                <Link to={"/studies"}><BookBookmarkIcon size={32} color="#094cb2" /> Studies</Link>
-                <Link to={"/notifications"}><BellIcon size={32} color="#094cb2" /> Notifications</Link> */}
+                <Link to={"/home"}><FontAwesomeIcon icon="fa-solid fa-house" /> Home</Link>
+                <Link to={"/studies"}><FontAwesomeIcon icon="fa-solid fa-book" /> Studies</Link>
+                <Link to={"/notifications"}><FontAwesomeIcon icon="fa-solid fa-bell" /> Notifications</Link>
             </div>
             <div>
                 <img src="" alt="" />
