@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.RegisterPage{
+    display: flex;
+    flex-direction: row;
+}
+.imgpropaganda{
+    position: static;
+}
+.infopropaganda{
+    position: relative;
+    left: 48px;
+    bottom: 160px;
+}
+.titlepropaganda{
+    font-family: "Noto Serif";
+    font-size: 30px;
+    font-weight: 400;
+}
+.textpropaganda{
+    line-height: 2px;
+}
+.voltar{
+    margin-top: 48px; margin-left: 48px;
+    display: flex;
+    flex-direction: row;
+    font-family: "Public Sans";
+    color: #434653;
+}
