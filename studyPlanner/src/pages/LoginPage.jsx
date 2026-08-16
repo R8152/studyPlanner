@@ -25,6 +25,7 @@ export default function LoginPage() {
                 </div>
                 <button className='entrar'>Entrar</button>
             </main>
+            <span className='account'>Don´t have an account? <span className='access'>Request access</span></span>
         </div>
 
     </>

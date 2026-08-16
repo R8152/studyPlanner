@@ -70,3 +70,12 @@
     padding-top: 14px; padding-bottom: 14px; margin-left: 20px;
     width: 368px;
 }
+.account{
+    font-family: "Inter";
+    font-size: 14px;
+    margin-top: 31.5px;
+}
+.access{
+    color: #094CB2;
+    font-weight: bold;
+}
