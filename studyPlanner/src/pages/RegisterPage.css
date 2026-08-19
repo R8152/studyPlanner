@@ -12,7 +12,6 @@
 .infopropaganda{
     position: relative;
     left: 48px;
-    bottom: 160px;
 }
 .titlepropaganda{
     font-family: "Noto Serif";
@@ -28,4 +27,28 @@
     flex-direction: row;
     font-family: "Public Sans";
     color: #434653;
+}
+.formulario{
+    margin: 0px 96px 96px 96px;
+}
+.title-formulario{
+    font-family: "Noto Serif";
+}
+.p-formulario{
+    font-family: "Inter";
+    color: #434653;
+}
+.info1{margin-top: 48px;}
+.info2, .info3, .info4{margin: 24px 0px;}
+.h2-info{
+    color: #1B1C1D;
+    font-family: "Public Sans";
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.inputinfo{
+    padding: 14px 16px;
+    width: 307.33px;
+    border: 2px solid #6B7280;
+    border-radius: 4px;
 }
